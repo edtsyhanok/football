@@ -1,0 +1,51 @@
+img {
+  width: 100px;
+  height: auto;
+  margin: 15px;
+}
+body {
+  background-image: url('image-1992325528825524224 3.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px #000000;}
+
+/* Привязываемся к контейнеру, чтобы задать его положение */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: transparent; /* Тот самый прозрачный фон */
+}
+
+/* Привязываемся к мячику, чтобы он крутился */
+.rotating-ball {
+    width: 50px;       /* Размер мяча */
+    height: 50px;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.2)); /* Легкая тень для объема */
+    
+    /* Анимация */
+    animation: spin 4s linear infinite;
+}
+
+/* Описание самой анимации */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+@media (max-width: 768px) {
+    .rotating-ball {
+        width: 35px; /* На мобилках мяч станет поменьше */
+        height: 35px;
+    }
+}
