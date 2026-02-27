@@ -4,7 +4,7 @@ img {
   margin: 15px;
 }
 body {
-  background-image: url('image-1992325528825524224 3.jpeg');
+  background-image: url('image-1992325528825524224 3.jpe');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -35,7 +35,7 @@ h1 {
     filter: drop-shadow(0 0 5px rgba(0,0,0,0.2)); /* Легкая тень для объема */
     
     /* Анимация */
-    animation: spin 6s linear infinite;
+    animation: spin 8s linear infinite;
 }
 
 /* Описание самой анимации */
