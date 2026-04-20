@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>logo</title>
+</head>
+
+<style>
+body{
+  background:#f5f5f5;
+}
+
+path{
+  stroke:black;
+  stroke-width:40;
+  fill:none;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+</style>
+
+
+<svg viewBox="0 0 300 300" width="600">
+  <!-- бледный фон -->
+  <path
+    d="M20 100 L150 20 L280 100"
+    stroke="black"
+    stroke-width="8"
+    fill="none"
+    opacity="0.2"/>
+  
+  <!-- анимируемая линия -->
+  <path
+    d="M20 100 L150 20 L280 100"
+    stroke="black"
+    stroke-width="8"
+    fill="none"
+    stroke-dasharray="400"
+    stroke-dashoffset="400"
+    class="draw"/>
+</svg>
+
+<style>
+.draw {
+  animation: drawLine 2s forwards;
+}
+
+@keyframes drawLine {
+  to { stroke-dashoffset: 0; }
+}
+</style>
+</html>

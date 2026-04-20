@@ -1,0 +1,28 @@
+
+<svg width="2000" height="2000" viewBox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg" style="background: #f0f0f0;">
+  <defs>
+    <pattern id="smallGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="gray" stroke-width="0.5" opacity="0.6"/>
+    </pattern>
+    
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="blue" stroke-width="1" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <image href="clubs/Barcelona.svg.png" x="-10" y="0" width="2000" height="2000" opacity="0.4" />
+<rect width="2000" height="2000" fill="url(#grid)" pointer-events="none" />
+
+  <g font-family="Arial" font-size="12" fill="blue" opacity="0.6" pointer-events="none">
+    <text x="100" y="15">100</text><text x="200" y="15">200</text><text x="300" y="15">300</text>
+    <text x="400" y="15">400</text><text x="500" y="15">500</text><text x="600" y="15">600</text>
+    <text x="700" y="15">700</text><text x="800" y="15">800</text><text x="900" y="15">900</text>
+    <text x="1000" y="15">1000</text>
+    <text x="5" y="105">100</text><text x="5" y="205">200</text><text x="5" y="305">300</text>
+    <text x="5" y="405">400</text><text x="5" y="505">500</text><text x="5" y="605">600</text>
+    <text x="5" y="705">700</text><text x="5" y="805">800</text><text x="5" y="905">900</text>
+    <text x="5" y="1005">1000</text>
+    </g>
+
+  </svg>
