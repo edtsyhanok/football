@@ -6,7 +6,7 @@
     </pattern>
   </defs>
 
-  <image href="barcelona.svg" x="0" y="0" width="2000" height="2000" opacity="0.6" />
+  <image href="barcelona1.svg" x="0" y="0" width="2000" height="2000" opacity="0.6" />
 <rect width="2000" height="2000" fill="url(#grid)" pointer-events="none" />
 
   <g font-family="Arial" font-size="12" fill="blue" opacity="0.6" pointer-events="none">
